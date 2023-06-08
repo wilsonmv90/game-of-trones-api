@@ -1,0 +1,32 @@
+
+
+.section {
+  background-color: #1b1b32;
+  color: #fff;
+}
+
+.section__title h1 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+}
+.section__card {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__name {
+  font-size: 20px;
+}
+.section__img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 18px;
+}
